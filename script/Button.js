@@ -53,7 +53,7 @@ var Button = {
 			if(!disabled && !btn.data('onCooldown')) {
 				btn.removeClass('disabled');
 			} else if(disabled) {
-				// btn.addClass('disabled');
+				;
 			}
 			btn.data('disabled', disabled);
 		}
